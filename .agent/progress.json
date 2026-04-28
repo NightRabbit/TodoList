@@ -1,0 +1,47 @@
+{
+  "sessionId": "session-1777415319565",
+  "status": "running",
+  "acceptanceCriteria": [],
+  "subtasks": [
+    {
+      "status": "pending",
+      "title": "Initialize Next.js Project",
+      "id": "init-next-app",
+      "description": "Use `npx create-next-app@latest .` to initialize a new Next.js project in the current directory. When prompted, select the following options: TypeScript, ESLint, Tailwind CSS, `app` router, and the default import alias (`@/*`). This will set up the foundational structure and dependencies.",
+      "attempts": 0,
+      "max_attempts": 3
+    },
+    {
+      "status": "pending",
+      "id": "add-shadcn-ui",
+      "title": "Add and Initialize shadcn-ui",
+      "description": "Add `shadcn-ui` to the project for a set of high-quality UI components. Run `npx shadcn-ui@latest init` and follow the prompts, accepting the default options. This will set up the necessary configuration and utilities for using the components.",
+      "attempts": 0,
+      "max_attempts": 3
+    },
+    {
+      "status": "pending",
+      "id": "setup-prettier",
+      "title": "Set up Prettier for Code Formatting",
+      "description": "Install Prettier and its necessary plugins (`prettier-plugin-tailwindcss`, `eslint-config-prettier`) to ensure a consistent code style. Create a `.prettierrc` configuration file and a `.prettierignore` file. This will help maintain code quality and readability.",
+      "attempts": 0,
+      "max_attempts": 3
+    },
+    {
+      "status": "pending",
+      "max_attempts": 3,
+      "attempts": 0,
+      "description": "Establish a more organized file structure for scalability. Create a `lib/utils.ts` file for helper functions. Clean up the default content in `app/page.tsx` to prepare for the application's main UI.",
+      "id": "organize-project-structure",
+      "title": "Organize Project Directory Structure"
+    },
+    {
+      "max_attempts": 5,
+      "attempts": 0,
+      "title": "Create a Basic Todo List UI",
+      "id": "create-todo-list-ui",
+      "description": "Implement a basic, non-functional UI for a todo list on the main page (`app/page.tsx`). Use `shadcn-ui` components like `Card`, `Input`, `Button`, and `Checkbox` to create the layout. This serves as a placeholder and demonstrates the use of the UI library.",
+      "status": "pending"
+    }
+  ]
+}
