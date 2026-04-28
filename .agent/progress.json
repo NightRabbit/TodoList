@@ -4,7 +4,7 @@
   "acceptanceCriteria": [],
   "subtasks": [
     {
-      "status": "pending",
+      "status": "completed",
       "title": "Initialize Next.js Project",
       "id": "init-next-app",
       "description": "Use `npx create-next-app@latest .` to initialize a new Next.js project in the current directory. When prompted, select the following options: TypeScript, ESLint, Tailwind CSS, `app` router, and the default import alias (`@/*`). This will set up the foundational structure and dependencies.",
