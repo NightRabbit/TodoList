@@ -1,0 +1,20 @@
+{
+  "sessionId": "session-1777968421711",
+  "status": "running",
+  "acceptanceCriteria": [],
+  "subtasks": [
+    {
+      "attempts": 0,
+      "id": "create-nextjs-boilerplate",
+      "testCommands": [
+        "test -f package.json",
+        "test -f next.config.js",
+        "test -d src"
+      ],
+      "max_attempts": 3,
+      "description": "Use the `create-next-app` CLI tool to initialize a new Next.js project in the current directory. The project should be configured with TypeScript, ESLint, and Tailwind CSS. Use the App Router and a `src/` directory for code.",
+      "status": "pending",
+      "title": "Create Next.js Project Boilerplate"
+    }
+  ]
+}
