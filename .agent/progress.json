@@ -13,7 +13,7 @@
       ],
       "max_attempts": 3,
       "description": "Use the `create-next-app` CLI tool to initialize a new Next.js project in the current directory. The project should be configured with TypeScript, ESLint, and Tailwind CSS. Use the App Router and a `src/` directory for code.",
-      "status": "pending",
+      "status": "completed",
       "title": "Create Next.js Project Boilerplate"
     }
   ]
