@@ -4,7 +4,7 @@
   "acceptanceCriteria": [],
   "subtasks": [
     {
-      "attempts": 0,
+      "attempts": 1,
       "id": "create-nextjs-boilerplate",
       "testCommands": [
         "test -f package.json",
